@@ -1,0 +1,49 @@
+{
+  "known_classes": [
+    "BENIGN",
+    "DDoS",
+    "DoS Hulk",
+    "PortScan",
+    "FTP-Patator",
+    "SSH-Patator"
+  ],
+  "unknown_classes": [
+    "Bot",
+    "DoS GoldenEye",
+    "DoS slowloris",
+    "DoS Slowhttptest",
+    "Heartbleed",
+    "Infiltration",
+    "Web Attack - Brute Force",
+    "Web Attack - Sql Injection",
+    "Web Attack - XSS"
+  ],
+  "train_counts": {
+    "BENIGN": 20000,
+    "DDoS": 20000,
+    "DoS Hulk": 20000,
+    "PortScan": 20000,
+    "FTP-Patator": 6399,
+    "SSH-Patator": 4666
+  },
+  "val_counts": {
+    "BENIGN": 5000,
+    "DDoS": 5000,
+    "DoS Hulk": 5000,
+    "PortScan": 5000,
+    "FTP-Patator": 1536,
+    "SSH-Patator": 1231
+  },
+  "open_counts": {
+    "Bot": 1956,
+    "DoS GoldenEye": 5000,
+    "DoS slowloris": 5000,
+    "DoS Slowhttptest": 5000,
+    "Heartbleed": 11,
+    "Infiltration": 36,
+    "Web Attack - Brute Force": 1507,
+    "Web Attack - Sql Injection": 21,
+    "Web Attack - XSS": 652
+  },
+  "num_features": 78
+}

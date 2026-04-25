@@ -1,0 +1,52 @@
+{
+  "known_classes": [
+    "benign",
+    "ddos attack-hoic",
+    "ddos attack-loic-udp",
+    "ddos attacks-loic-http",
+    "dos attacks-goldeneye",
+    "dos attacks-hulk",
+    "dos attacks-slowhttptest",
+    "dos attacks-slowloris"
+  ],
+  "unknown_classes": [
+    "bot",
+    "infilteration",
+    "brute force-web",
+    "brute force-xss",
+    "ftp-bruteforce",
+    "ssh-bruteforce",
+    "sql injection"
+  ],
+  "split_mode": "chronological",
+  "train_counts": {
+    "benign": 20000,
+    "dos attacks-slowhttptest": 20000,
+    "dos attacks-hulk": 20000,
+    "ddos attacks-loic-http": 20000,
+    "dos attacks-goldeneye": 20000,
+    "dos attacks-slowloris": 8792,
+    "ddos attack-hoic": 20000,
+    "ddos attack-loic-udp": 1384
+  },
+  "val_counts": {
+    "benign": 5000,
+    "dos attacks-slowhttptest": 5000,
+    "dos attacks-hulk": 5000,
+    "ddos attacks-loic-http": 5000,
+    "dos attacks-goldeneye": 5000,
+    "dos attacks-slowloris": 2198,
+    "ddos attack-hoic": 5000,
+    "ddos attack-loic-udp": 346
+  },
+  "open_counts": {
+    "bot": 5000,
+    "infilteration": 5000,
+    "brute force-web": 611,
+    "brute force-xss": 230,
+    "ftp-bruteforce": 5000,
+    "ssh-bruteforce": 5000,
+    "sql injection": 87
+  },
+  "num_features": 78
+}
