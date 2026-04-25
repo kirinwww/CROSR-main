@@ -7,13 +7,22 @@ processed_cicids2018/
 processed_nslkdd/
 processed_unsw_nb15/
 
-save_models/
-saved_MAVs/
-saved_distance_scores/
-saved_features/
-
 cicids/
 cicids2018/
 nslkdd/
 unsw_nb15/
 data/
+saved_features/
+
+save_models/*
+!save_models/cicids_1d/
+save_models/cicids_1d/*
+!save_models/cicids_1d/latest.pth
+
+saved_MAVs/*
+!saved_MAVs/cicids_1d/
+!saved_MAVs/cicids_1d/**
+
+saved_distance_scores/*
+!saved_distance_scores/cicids_1d/
+!saved_distance_scores/cicids_1d/**
